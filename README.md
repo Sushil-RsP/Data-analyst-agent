@@ -8,14 +8,15 @@ An AI-powered Data Analyst Agent built using Flask, Pandas, Matplotlib, Seaborn,
 
 After uploading a dataset, the system automatically:
 
-* Displays the first 5 rows of the dataset
+* Displays the first 5 rows of the dataset (df.head())
 * Shows dataset shape (rows and columns)
 * Lists all column names
-* Detects data types
-* Generates basic Exploratory Data Analysis (EDA)
+* Detects data types for each column
+* Generates descriptive statistics using df.describe()
+* Performs basic Exploratory Data Analysis (EDA)
 * Identifies missing values
 * Performs automatic data cleaning
-* Fills null values using suitable methods
+* Fills missing values using suitable methods
 
 ### AI-Powered Querying
 
