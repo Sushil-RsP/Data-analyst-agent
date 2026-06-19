@@ -1,0 +1,8 @@
+flask
+pandas
+numpy
+python-dotenv
+google-generativeai
+matplotlib
+seaborn
+werkzeug
