@@ -101,17 +101,6 @@ def execute_code(code, df):
         {"df": df, "pd": pd},
         {}
     )
-
-
-"""def format_result(result):
-
-    if isinstance(result, pd.DataFrame):
-        return result.to_string()
-
-    if isinstance(result, pd.Series):
-        return result.to_string()
-
-    return str(result)"""
     
     
 def format_result(result):
