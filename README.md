@@ -123,7 +123,7 @@ GEMINI_API_KEY=YOUR_API_KEY
 ### Run Application
 
 ```bash
-python app_py.py
+python new_app_py.py
 ```
 
 Open:
